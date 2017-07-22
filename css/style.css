@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
+/*body {
+  background-image: url(../img/Untitled-4.jpg);
+  background-position: center;
+  background-size: cover;
+}*/
+@media all and (max-width: 700px){
+.header, .line1, .line2, .line3, .footer {
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+
+}
+.page {
+  /*min-width: 910px;*/
+  max-width: 1200px;
+  margin: auto;
+}
+.header {
+  height: 200px;
+  max-width: 1102px;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+}
+.logo {
+  width: 500px;
+  height: 100px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+.menu1, .menu2 {
+  width: 300px;
+  height: 40px;
+}
+#brand, #cont {
+  text-decoration: none;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.line1, .line2, .line3 {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.foto {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  max-width: 1102px;
+  margin: auto;
+  align-items: center;
+
+}
+.copyright {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 20px;
+  color: black;
+}
